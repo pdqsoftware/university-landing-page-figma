@@ -19,11 +19,12 @@ class Footer extends React.Component {
                                 <div>University</div>
                             </div>
                         </div>
-                        <div className="footer_social">
-                            <img src="images/twitter.png" alt="Social media link - Twitter" id="social-media_image" height="12px"/>
+                        <div className="footer-social">
+                            {/* <img src="images/twitter.png" alt="Social media link - Twitter" id="social-media_image" height="12px"/>
                             <img src="images/linkedin.png" alt="Social media link - LinkedIn" id="social-media_image" height="15px"/>
                             <img src="images/google.png" alt="Social media link - Google" id="social-media_image" height="12px"/>
-                            <img src="images/facebook.png" alt="Social media link - Facebook" id="social-media_image" height="12px"/>
+                            <img src="images/facebook.png" alt="Social media link - Facebook" id="social-media_image" height="12px"/> */}
+                            <img src="images/social-icons.svg" alt="Social media links - Twitter, LinkedIn, Google, Facebook" id="footer-social-media_icons"/>
                         </div>
                     </div>
 

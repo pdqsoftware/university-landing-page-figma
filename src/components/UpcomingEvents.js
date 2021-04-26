@@ -8,7 +8,7 @@ class UpcomingEvents extends React.Component {
             <section className="upcoming-events">
                 <div >
                     <div className="upcoming-events_title">
-                        <h3>Upcoming Events</h3>
+                        Upcoming Events
                     </div>
                     <div className="upcoming-events_button">
                         <a href="#" className="button button_black">View all events</a>
