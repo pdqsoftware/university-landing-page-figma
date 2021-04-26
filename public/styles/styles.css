@@ -4,14 +4,13 @@ body {
     color: #333333;
 }
 
-
 header {
     position: fixed;
     width: 1440px;
     height: 88px;
     left: 0px;
     top: 0px;
-    background-color: grey;
+    background-color: white;
     z-index: 999;
 }
 header::after {
@@ -21,7 +20,6 @@ header::after {
 }
 
 .header-crest {
-    /* float: left; */
     position: absolute;
     height: 48px;
     width: 159px;
@@ -182,23 +180,16 @@ footer {
 /* Hero */
 .hero {
     clear: both;
-    /* width: auto;
-    display: block;
-    padding-top: 150px; */
     position: static;
     width: 1280px;
     height: 624px;
     left: 80px;
     top: 128px;
     font-weight: 400;
-
-
     margin-top: 50px;
 }
 .hero-home {
     font-family: "FiraSans";
-    /* margin-left: 3rem; */
-
     position: absolute;
     width: 38px;
     height: 16px;
@@ -214,28 +205,21 @@ footer {
     position: absolute;
     font-size: 56px;
     font-weight: 400;
-    /* margin-bottom: 40px; */
     text-transform: uppercase;
-
     height: 64px;
     width: 279px;
     left: 80px;
     top: 208px;
     border-radius: nullpx;
-
 }
 .hero-text_summary {
     position: absolute;
     font-size: 40px;
-    /* font-weight: 400; */
-    /* margin-bottom: 4rem; */
-
     height: 144px;
     width: 510px;
     left: 80px;
     top: 312px;
     border-radius: nullpx;
-
 }
 .hero-text_person {
     position: absolute;
@@ -245,31 +229,22 @@ footer {
     left: 80px;
     top: 504px;
     border-radius: nullpx;
-
 }
 .hero-text_person__title {
     position: absolute;
     font-size: 14px;
-    /* margin-bottom: 3rem; */
     height: 16px;
     width: 284px;
     left: 80px;
     top: 544px;
     border-radius: nullpx;
-
 }
 .hero-text_button {
-    /* display: block; */
     color: #333333;
-    /* width: 30%; */
-    /* width: 9rem; */
-    /* margin: auto; */
     text-align: center;
-    /* padding: 1rem 2rem; */
     border-style: solid;
     border-width: thin;
     border-image: linear-gradient(98.01deg, #00C2FF 14.16%, #FF27C3 79.91%) 1;
-
     position: absolute;
     width: 290px;
     height: 64px;
@@ -284,22 +259,17 @@ footer {
     top: 20px;
     border-radius: nullpx;
     font-size: 20px;
-
 }
 .hero-image {
-    /* float: right; */
     position: absolute;
     width: 730px;
     height: 624px;
     left: 630px;
     top: 128px;
-
     background: #C4C4C4;
 }
 .hero-image_image {
     display: block;
-    /* max-width: 100%; */
-    /* width: 752px; */
     width: 736px;
     margin-right: 3rem;
 }
@@ -307,38 +277,21 @@ footer {
 /*  Cards */
 .cards {
     clear: right;
-    /* margin: 3rem 3rem; */
-
-    /* height: 1272px;
-    width: 1280px;
-    left: 80px;
-    top: 856px;
-    border-radius: 0px; */
-
     position: absolute;
     width: 1280px;
     height: 1272px;
     left: 80px;
     top: 856px;
-
 }
 .cards-area {
     float: left;
     margin-bottom: 8rem;
 }
 .largecard {
-    /* float: left; */
     display: inline-block;
-    /* margin-left: 1.5rem; */
     margin-top: 5rem;
     margin-right: 2rem;
 }
-/* .largecard:last-child {
-    border-bottom: 5rem;
-} */
-/* .largecard-top {
-    margin-bottom: 430px;
-} */
 .largecard__1 {
     position: absolute;
     width: 730px;
@@ -446,8 +399,11 @@ footer {
 
 }
 .largecard-overlay__1-title {
-    position: absolute;
-    width: 141px;
+    /* position: absolute; */
+    display: inline-block;
+    padding-left: 24px;
+    padding-top: 32px;
+    width: 165px;
     height: 24px;
     left: 24px;
     bottom: 112px;
@@ -455,24 +411,33 @@ footer {
     line-height: 24px;
 }
 .largecard-overlay__2-title {
-    position: absolute;
-    width: 116px;
+    /* position: absolute; */
+    display: inline-block;
+    padding-left: 24px;
+    padding-top: 30px;
+    width: 150px;
     height: 24px;
     left: 24px;
     bottom: 112px;
     font-size: 20px;
 }
 .largecard-overlay__3-title {
-    position: absolute;
-    width: 126px;
+    /* position: absolute; */
+    display: inline-block;
+    padding-left: 24px;
+    padding-top: 30px;
+    width: 150px;
     height: 24px;
     left: 24px;
     bottom: 112px;
     font-size: 20px;
 }
 .largecard-overlay__4-title {
-    position: absolute;
-    width: 58px;
+    /* position: absolute; */
+    display: inline-block;
+    padding-left: 24px;
+    padding-top: 30px;
+    width: 82px;
     height: 24px;
     left: 24px;
     bottom: 112px;
@@ -481,8 +446,11 @@ footer {
 
 }
 .largecard-overlay__5-title {
-    position: absolute;
-    width: 100px;
+    /* position: absolute; */
+    display: inline-block;
+    padding-left: 24px;
+    padding-top: 30px;
+    width: 124px;
     height: 24px;
     left: 24px;
     bottom: 112px;
@@ -490,19 +458,9 @@ footer {
 }
 
 .largecard-overlay__1 {
-    /* background-color: white; */
-    /* position: absolute; */
-    /* width: 141px; */
-    /* height: 24px; */
-    /* left: 24px; */
     bottom: 112px;
 }
 .largecard-overlay__2 {
-    /* background-color: white;
-    position: absolute; */
-    /* width: 116px;
-    height: 24px;
-    left: 24px; */
     bottom: 112px;
 }
 .largecard-overlay__3 {
@@ -516,41 +474,42 @@ footer {
 }
 
 .largecard-overlay__1-arrow {
-    position: absolute;
+    /* position: absolute; */
+    display: inline-block;
     width: 16px;
     height: 16px;
     left: 197px;
-    bottom: 99px;
+    top: 30px;
+    /* bottom: 99px; */
 }
 .largecard-overlay__2-arrow {
-    position: absolute;
+    /* position: absolute; */
+    display: inline-block;
     width: 16px;
     height: 16px;
     left: 172px;
-    bottom: 99px;
+    top: 30px;
 }
 
 .largecard-overlay__3-arrow {
-    position: absolute;
-    /* left: 90.91%;
-    right: -22.73%;
-    top: 11.11%;
-    bottom: 11.11%; */
-
+    /* position: absolute; */
+    display: inline-block;
     width: 16px;
     height: 16px;
     left: 182px;
     bottom: 99px;
 }
 .largecard-overlay__4-arrow {
-    position: absolute;
+    /* position: absolute; */
+    display: inline-block;
     width: 16px;
     height: 16px;
     left: 114px;
     bottom: 99px;
 }
 .largecard-overlay__5-arrow {
-    position: absolute;
+    /* position: absolute; */
+    display: inline-block;
     width: 16px;
     height: 16px;
     left: 156px;
@@ -560,7 +519,6 @@ footer {
 .largecard-bottom_title {
     display: inline-block;
     font-weight: 400;
-    /* margin: 1.5rem; */
     margin-top: 2.5rem;
     margin-bottom: 0.5rem;
     margin-left: 1rem;
@@ -568,8 +526,6 @@ footer {
 }
 
 .largecard-bottom_arrow-image_image {
-    /* display: inline-block; */
-    /* margin: 2rem; */
     padding-top: 1rem;
     margin-top: 1rem;
     border-top: 1rem;
@@ -577,8 +533,6 @@ footer {
 .largecard-overlay_content {
     font-family: FiraSans;
     font-weight: 400;
-
-
     position: absolute;
     width: 352px;
     height: 72px;
@@ -588,19 +542,11 @@ footer {
 
 
 
-
-
-
-
 /* Feature Banner */
 .feature-banner {
     clear: left;
-    /* border: 8rem;
-    padding: 6rem;
-    padding: 15rem 0; */
     background-image: url("../images/banner-image.png");
     background-size: cover;
-
     position: absolute;
     width: 1440px;
     height: 528px;
@@ -613,7 +559,6 @@ footer {
 }
 .feature-banner_text {
     color: white;
-    /* margin-bottom: 3rem; */
     font-family: Oswald;
     font-size: 40px;
     font-style: normal;
@@ -621,11 +566,7 @@ footer {
     line-height: 48px;
     letter-spacing: 0px;
     text-align: center;
-
-
     border-radius: nullpx;
-
-
     position: absolute;
     width: 842px;
     height: 168px;
@@ -639,9 +580,7 @@ footer {
     left: 680px;
     top: 128px;
     border-radius: 0px;
-
     display: block;
-
     margin: auto;
     border-bottom: 3px solid #4588ba; 
     /* margin-bottom: 20px; */
@@ -654,7 +593,6 @@ footer {
     height: 64px;
     left: 590px;
     top: 336px;
-
     text-align: center;
     border-style: solid;
     border-width: thin;
@@ -671,9 +609,6 @@ footer {
 
 /* Upcoming Events */
 .upcoming-events {
-    /* margin-top: 3rem;
-    margin-right: 3rem; */
-
     position: absolute;
     width: 1280px;
     height: 736px;
@@ -682,16 +617,12 @@ footer {
 }
 .upcoming-events_title {
     float: left;
-    /* width: 70%;
-    display: inline-block; */
     margin-left: 3rem;
-    /* margin-top: 5rem; */
+
 }
 .upcoming-events_button {
     float: right;
-    /* display: inline-block; */
     text-align: center;
-    /* margin-left: 3rem; */
     padding: 1rem 2rem;
     border-style: solid;
     border-width: thin;
@@ -712,7 +643,6 @@ footer {
     top: 1rem;
     left: 1rem;
     background-color: white;
-    /* padding-right: 10rem; */
     margin-bottom: 20rem;
 }
 #featured-event-day {
@@ -735,7 +665,6 @@ footer {
     display: inline-block;
     background-image: url("../images/fe-card1.png");
     background-repeat:no-repeat;
-    /* background-size:400px 624px ;*/
     background-size: cover;
     margin-left: 3rem;
     margin-top: 1rem;
@@ -779,9 +708,6 @@ footer {
 .button_underline {
     text-decoration: underline;
 }
-.crest-image {
-    /* margin-bottom: 0.5rem; */
-}
 .twitter-large_image {
     display: inline-block;
     text-align: right;
@@ -794,29 +720,7 @@ footer {
     margin-left: 0.5rem;
 }
 
-
-
-/* Media queries for top student image */
-@media only screen and (max-width: 1300px) {
-    body {
-        background-color: lightgreen;
-    }
-    header {
-        margin: 3rem 1rem;
-    }
-
-    .hero-image_image {
-        width: 576px;
-    }
-}
-@media only screen and (max-width: 1100px) {
-    .hero-image_image {
-        width: 432px;
-    }
-}
-
-
-
+/* Media queries from project 1 - NOT TESTED */
 
 /* Media queries for iPad et al */
 @media only screen and (max-width: 800px) {
