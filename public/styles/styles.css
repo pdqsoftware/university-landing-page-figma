@@ -39,7 +39,6 @@ header::after {
     height: 24px;
     left: 919px;
     top: 32px;
-    border-radius: nullpx;
     margin-right: 80px;
     font-size: 20px;
     line-height: 24px;
@@ -222,7 +221,6 @@ footer {
     width: 279px;
     left: 80px;
     top: 208px;
-    border-radius: nullpx;
 }
 .hero-text_summary {
     position: absolute;
@@ -231,7 +229,6 @@ footer {
     width: 510px;
     left: 80px;
     top: 312px;
-    border-radius: nullpx;
 }
 .hero-text_person {
     position: absolute;
@@ -240,7 +237,6 @@ footer {
     width: 91px;
     left: 80px;
     top: 504px;
-    border-radius: nullpx;
 }
 .hero-text_person__title {
     position: absolute;
@@ -249,7 +245,6 @@ footer {
     width: 284px;
     left: 80px;
     top: 544px;
-    border-radius: nullpx;
 }
 .hero-text_button {
     color: #333333;
@@ -269,7 +264,6 @@ footer {
     width: 148px;
     left: 70.5px;
     top: 20px;
-    border-radius: nullpx;
     font-size: 20px;
 }
 .hero-image {
@@ -454,8 +448,6 @@ footer {
     left: 24px;
     bottom: 112px;
     font-size: 20px;
-    border-radius: nullpx;
-
 }
 .largecard-overlay__5-title {
     /* position: absolute; */
@@ -578,7 +570,6 @@ footer {
     line-height: 48px;
     letter-spacing: 0px;
     text-align: center;
-    border-radius: nullpx;
     position: absolute;
     width: 842px;
     height: 168px;
@@ -643,10 +634,21 @@ footer {
 .upcoming-events_button {
     float: right;
     text-align: center;
-    padding: 1rem 2rem;
+    width: 290px;
+    height: 44px;
+    padding-top: 20px;
     border-style: solid;
     border-width: thin;
     border-image: linear-gradient(98.01deg, #00C2FF 14.16%, #FF27C3 79.91%) 1;
+}
+.upcoming-events_button-text {
+    height: 24px;
+    width: 109px;
+    left: 90.5px;
+    top: 20px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
 }
 
 /* Featured Events */
@@ -662,10 +664,8 @@ footer {
     display: inline-block;
     width: 180px;
     height: 176px;
-    top: 1rem;
-    left: 1rem;
     background-color: white;
-    margin-bottom: 20rem;
+    margin-bottom: 320px;
 }
 #featured-event-day {
     color: #FF227F;
@@ -723,12 +723,13 @@ footer {
 .featured-event-card_title {
     padding: 32px 16px;
     color: white;
+    /* padding-top: 320px; */
+    /* padding-left: 16px; */
 
     height: 96px;
     width: 368px;
-    left: 16px;
+    /* left: 16px; */
     top: 496px;
-    border-radius: nullpx;
 
     font-size: 40px;
     line-height: 48px;
