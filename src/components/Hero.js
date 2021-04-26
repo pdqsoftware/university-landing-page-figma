@@ -9,12 +9,12 @@ class Hero extends React.Component {
                 </div>
                 {/* <div className="hero-text"> */}
                     <div className="hero-text_title">
-                        <p>Student Life</p>
+                        Student Life
                         {/* <h1>Student Life</h1> */}
                     </div>
                     <div className="hero-text_summary">
                         {/* <h3>There is so much going on at Ludlow University, both on and off campus. </h3> */}
-                        <p>There is so much going on at Ludlow University, both on and off campus. </p>
+                        There is so much going on at Ludlow University, both on and off campus.
                     </div>
                     <div className="hero-text_person">
                         {/* <h4>Lisa Smith</h4> */}
