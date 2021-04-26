@@ -17,7 +17,7 @@ class FeaturedEvent extends React.Component {
                     </div>
                 </div>
                 <div className="featured-event-card_title">
-                    <h3>{ this.props.featureText }</h3>
+                    { this.props.featureText }
                 </div>
             </section>
         )

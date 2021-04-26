@@ -13,7 +13,7 @@ class Header extends React.Component {
                     <div id="header_navigate__item">Research</div>
                     <div id="header_navigate__item">About us</div>
                     <div id="header_navigate__magnify">
-                        <img src="images/magnify.png" alt="Magnifying glass" className="magnifying-glass" width="30px"/>
+                        <img src="images/magnify.png" alt="Magnifying glass" className="header_navigate__magnifying-glass"/>
                     </div>
                 </div>
             </header>

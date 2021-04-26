@@ -50,6 +50,10 @@ header::after {
     height: 23.11px;
     width: 23.1px;
 }
+.header_navigate__magnifying-glass {
+    height: 24px;
+    width: 24px;
+}
 
 
 /* ------------------------------- */
@@ -655,8 +659,9 @@ footer {
     width: 800px;
 }
 .featured-event-card_date {
-
     display: inline-block;
+    width: 180px;
+    height: 176px;
     top: 1rem;
     left: 1rem;
     background-color: white;
@@ -664,17 +669,22 @@ footer {
 }
 #featured-event-day {
     color: #FF227F;
+    width: 50px;
+    padding-left: 7px;
     font-weight: 300;
-    font-size: 3rem;
-    text-align: center;
+    font-size: 56px;
+    text-align: left;
 }
 #featured-event-month {
     font-weight: 300;
-    font-size: 2rem;
+    font-size: 40px;
+    text-align: lef;
     text-transform: uppercase;
 }
 .featured-event-card_date_box {
-    padding: 2rem 3rem;
+    padding-left: 59px;
+    padding-top: 32px;
+    width: 62px;
     border: 1rem 3rem 8rem 3rem;
 }
 .featured-event-card__1 {
@@ -713,6 +723,16 @@ footer {
 .featured-event-card_title {
     padding: 32px 16px;
     color: white;
+
+    height: 96px;
+    width: 368px;
+    left: 16px;
+    top: 496px;
+    border-radius: nullpx;
+
+    font-size: 40px;
+    line-height: 48px;
+
 }
 
 /* General */
@@ -748,7 +768,7 @@ footer {
 /* Media queries for iPad et al */
 @media only screen and (max-width: 800px) {
     body {
-        background-color: lightskyblue;
+        /* background-color: lightskyblue; */
     }
     header {
         margin: 3rem 1rem;
@@ -800,7 +820,7 @@ footer {
 /* Media queries for narrower mobiles */
 @media only screen and (max-width: 415px) {
     body {
-        background-color: lightpink;
+        /* background-color: lightpink; */
     }
     header {
         margin: 2rem 1rem;
