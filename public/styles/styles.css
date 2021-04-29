@@ -64,17 +64,13 @@ footer {
 }
 .footer-university-lhs {
     display: inline-block;
-    /* width: 65%; */
     font-weight: 600;
-    font-size: 0.9rem;
     font-family: Arial;
     padding-top: 2rem;
     padding-bottom: 10rem;
 }
 .footer-university_crest-lhs {
     position: absolute;
-    /* width: 159px;
-    height: 48px; */
     left: 80px;
     top: 64px;
 }
@@ -90,18 +86,6 @@ footer {
     left: 16px;
     top: 24px;
     border-radius: 0px;
-
-    /* position: absolute;
-    width: 159px;
-    height: 48px;
-    left: 80px;
-    top: 3784px; */
-
-}
-.footer-university_text {
-    margin-left: 0.5rem;
-    display: inline-block;
-    text-align: left;
 }
 .footer-university_twitter-header {
     margin-left: 17px;
@@ -133,7 +117,6 @@ footer {
     border-top: 1px solid lightgrey;
 }
 .footer-lhs-watermark {
-    height: 22rem;
     margin-left: 80px;
     background-image: url("../images/footer-crest-watermark.svg");
     background-repeat: no-repeat;
@@ -151,9 +134,6 @@ footer {
     font-weight: 600;
     font-family: Arial;
     padding-top: 88px;
-}
-.footer_twitter {
-    font-size: 0.75rem;
 }
 .footer_caption {
     text-align: right;
@@ -180,11 +160,6 @@ footer {
 }
 .footer-university_twitter-time {
     margin-top: 32px;
-}
-.footer_crest {
-    display: block;
-    margin-right: 1rem;
-    text-align: right;
 }
 .footer_username {
     display: block;
@@ -220,11 +195,6 @@ footer {
     left: 80px;
     top: 112px;
 }
-/* .hero-text {
-    float: left;
-    margin: 3rem 3rem;
-    width: 30%;
-} */
 .hero-text_title {
     position: absolute;
     font-size: 56px;
@@ -290,7 +260,6 @@ footer {
 .hero-image_image {
     display: block;
     width: 736px;
-    /* margin-right: 3rem; */
 }
 
 /*  Cards */
@@ -301,15 +270,6 @@ footer {
     height: 1272px;
     left: 80px;
     top: 856px;
-}
-/* .cards-area {
-    float: left;
-    margin-bottom: 8rem;
-} */
-.largecard {
-    display: inline-block;
-    margin-top: 5rem;
-    margin-right: 2rem;
 }
 .largecard__1 {
     position: absolute;
@@ -417,135 +377,56 @@ footer {
     z-index: 888;
 
 }
-.largecard-overlay__1-title {
-    /* position: absolute; */
+.largecard-overlay-title {
     display: inline-block;
     padding-left: 24px;
     padding-top: 32px;
-    width: 165px;
     height: 24px;
     left: 24px;
     bottom: 112px;
     font-size: 20px;
     line-height: 24px;
 }
+.largecard-overlay__1-title {
+    width: 165px;
+}
 .largecard-overlay__2-title {
-    /* position: absolute; */
-    display: inline-block;
-    padding-left: 24px;
-    padding-top: 30px;
     width: 150px;
-    height: 24px;
-    left: 24px;
-    bottom: 112px;
-    font-size: 20px;
 }
 .largecard-overlay__3-title {
-    /* position: absolute; */
-    display: inline-block;
-    padding-left: 24px;
-    padding-top: 30px;
     width: 150px;
-    height: 24px;
-    left: 24px;
-    bottom: 112px;
-    font-size: 20px;
 }
 .largecard-overlay__4-title {
-    /* position: absolute; */
-    display: inline-block;
-    padding-left: 24px;
-    padding-top: 30px;
     width: 82px;
-    height: 24px;
-    left: 24px;
-    bottom: 112px;
-    font-size: 20px;
 }
 .largecard-overlay__5-title {
-    /* position: absolute; */
-    display: inline-block;
-    padding-left: 24px;
-    padding-top: 30px;
     width: 124px;
-    height: 24px;
-    left: 24px;
-    bottom: 112px;
-    font-size: 20px;
 }
-
-.largecard-overlay__1 {
-    bottom: 112px;
-}
-.largecard-overlay__2 {
-    bottom: 112px;
-}
-.largecard-overlay__3 {
-    bottom: 112px;
-}
-.largecard-overlay__4 {
-    bottom: 112px;
-}
-.largecard-overlay__5 {
-    bottom: 112px;
-}
-
-.largecard-overlay__1-arrow {
-    /* position: absolute; */
+.largecard-overlay-arrow {
     display: inline-block;
     width: 16px;
     height: 16px;
+}
+.largecard-overlay__1-arrow {
     left: 197px;
     top: 30px;
-    /* bottom: 99px; */
 }
 .largecard-overlay__2-arrow {
-    /* position: absolute; */
-    display: inline-block;
-    width: 16px;
-    height: 16px;
     left: 172px;
     top: 30px;
 }
 
 .largecard-overlay__3-arrow {
-    /* position: absolute; */
-    display: inline-block;
-    width: 16px;
-    height: 16px;
     left: 182px;
     bottom: 99px;
 }
 .largecard-overlay__4-arrow {
-    /* position: absolute; */
-    display: inline-block;
-    width: 16px;
-    height: 16px;
     left: 114px;
     bottom: 99px;
 }
 .largecard-overlay__5-arrow {
-    /* position: absolute; */
-    display: inline-block;
-    width: 16px;
-    height: 16px;
     left: 156px;
     bottom: 99px;
-}
-
-.largecard-bottom_title {
-    display: inline-block;
-    font-weight: 400;
-    margin-top: 2.5rem;
-    margin-bottom: 0.5rem;
-    margin-left: 1rem;
-    margin-right: 1.5rem;
-}
-
-.largecard-bottom_arrow-image_image {
-    padding-top: 1rem;
-    margin-top: 1rem;
-    border-top: 1rem;
 }
 .largecard-overlay_content {
     font-family: FiraSans;
@@ -632,8 +513,6 @@ footer {
     top: 2864px;
 }
 .upcoming-events_title {
-    /* float: left;
-    margin-left: 3rem; */
     position: absolute;
     width: 248px;
     height: 48px;
@@ -698,61 +577,42 @@ footer {
     padding-left: 59px;
     padding-top: 32px;
     width: 62px;
-    border: 1rem 3rem 8rem 3rem;
 }
 .featured-event-card__1 {
     position: absolute;
     left: 0px;
     width: 400px;
-    /* display: inline-block; */
     background-image: url("../images/fe-card1.png");
     background-repeat:no-repeat;
     background-size: cover;
-    /* margin-left: 3rem; */
-    /* margin-top: 1rem; */
 }
 .featured-event-card__2 {
     position: absolute;
     left: 440px;
     width: 400px;
-    /* display: inline-block; */
     background-image: url("../images/fe-card2.png");
     background-repeat:no-repeat;
     background-size: cover;
-    /* margin-left: 3rem; */
-    /* margin-top: 1rem; */
 }
 .featured-event-card__3 {
     position: absolute;
     width: 400px;
-    /* display: inline-block; */
     left: 880px;
     background-image: url("../images/fe-card3.png");
     background-repeat:no-repeat;
     background-size: cover;
-    /* margin-left: 3rem; */
-    /* margin-top: 1rem; */
 }
 .featured-event-card_title {
     padding: 32px 16px;
     color: white;
-    /* padding-top: 320px; */
-    /* padding-left: 16px; */
-
     height: 96px;
     width: 368px;
-    /* left: 16px; */
     top: 496px;
-
     font-size: 40px;
     line-height: 48px;
-
 }
 
 /* General */
-#social-media_image {
-    margin-right: 1rem;
-}
 .button {
     text-decoration: none;
 }
@@ -769,21 +629,11 @@ footer {
     display: inline-block;
     text-align: right;
 }
-#student-life {
-    opacity: 0.4;
-    color: black;
-    font-family: Arial;
-    margin-bottom: 1rem;
-    margin-left: 0.5rem;
-}
 
 /* Media queries from project 1 - NOT TESTED  */
 
 /* Media queries for iPad et al */
 @media only screen and (max-width: 800px) {
-    body {
-        /* background-color: lightskyblue; */
-    }
     header {
         margin: 3rem 1rem;
     }
@@ -815,9 +665,6 @@ footer {
     }
 
     /* Cards */
-    .cards-area {
-        margin-bottom: 3rem;
-    }
     .largecard {
         margin-top: 2rem;
     }
@@ -833,9 +680,6 @@ footer {
 
 /* Media queries for narrower mobiles */
 @media only screen and (max-width: 415px) {
-    body {
-        /* background-color: lightpink; */
-    }
     header {
         margin: 2rem 1rem;
     }

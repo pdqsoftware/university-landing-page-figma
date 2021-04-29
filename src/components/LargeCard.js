@@ -5,8 +5,8 @@ class LargeCard extends React.Component {
         const cardTop = "largecard-image__" + this.props.cardImage
         const largeCard = "largecard__" + this.props.cardImage
         const cardOverlay = "largecard-overlay__" + this.props.cardImage
-        const cardOverlayTitle = cardOverlay + "-title"
-        const arrow = "largecard-overlay__" + this.props.cardImage + "-arrow"
+        const cardOverlayTitle = "largecard-overlay-title " + cardOverlay + "-title"
+        const arrow = "largecard-overlay-arrow largecard-overlay__" + this.props.cardImage + "-arrow"
         return (
             <div className={ largeCard }>
                 <div className={ cardTop }></div>
